@@ -43,6 +43,11 @@ const characters = [
 
 //***FILTER***
 //1. Get characters with mass greater than 100
+//const char100 = characters.filter((character) => character.mass > 100)
+const char100 = characters.filter((character) => {
+return character.mass > 100
+})
+console.log(char100)
 //2. Get characters with height less than 200
 //3. Get all male characters
 //4. Get all female characters
