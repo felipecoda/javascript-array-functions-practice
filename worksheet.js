@@ -120,8 +120,19 @@ const characters = [
 
 //***SOME***
 //1. Is there at least one male character?
-const oneMale = characters.some((character => character.gender === "male"))
-console.log(oneMale)
+//const oneMale = characters.some((character => character.gender === "male"))
+//console.log(oneMale)
 //2. Is there at least one character with blue eyes?
 //3. Is there at least one character taller than 210?
 //4. Is there at least one character that has mass less than 50?
+
+
+
+function myFunction(a)
+    {
+    a.sort()
+    
+    return console.log(a.sort())
+}
+    
+myFunction([1,22,3,6])
